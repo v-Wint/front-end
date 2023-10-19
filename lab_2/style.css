@@ -1,0 +1,98 @@
+/* common properties */
+.clock {
+    width: 200px;
+    height: 200px;
+    background-color:ghostwhite;
+    border-radius: 15%;
+    border: 2px solid black;
+    margin: 20px;
+    float: left;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 16px;
+    border: 2px solid black;
+}
+
+.hand {
+    background-color: black;
+}
+
+.hand:nth-last-child(2) {
+    width: 6px;
+    height: 100px;
+}
+
+.hand:nth-last-child(1) {
+    width: 75px;
+    height: 6px;
+}
+
+
+/* position mmethod */
+.pos {
+    position: relative;
+}
+
+.pos .dot, .pos .hand {
+    position: absolute;
+}
+
+.pos .dot:nth-child(1) {
+    left: 45%;
+    top: 5%;
+}
+
+.pos .dot:nth-child(2) {
+    left: 85%;
+    top: 45%
+}
+
+.pos .dot:nth-child(3) {
+    left: 45%;
+    top: 85%;
+}
+
+.pos .dot:nth-child(4) {
+    left: 5%;
+    top: 45%;
+}
+
+.pos .hand:nth-last-child(2) {
+    left: 48.5%;
+    top: 10%;
+}
+
+.pos .hand:nth-last-child(1) {
+    left: 42%;
+    top: 48.5%;
+}
+
+
+/* transform method */
+.tran .dot:nth-child(1) {
+    transform: translate(90px, 10px);
+}
+
+.tran .dot:nth-child(2) {
+    transform: translate(170px, 70px);
+}
+
+.tran .dot:nth-child(3) {
+    transform: translate(90px, 130px);
+}
+
+.tran .dot:nth-child(4) {
+    transform: translate(10px, 30px);
+}
+
+.tran .hand:nth-last-child(2) {
+    transform: translate(97px, -60px);
+}
+
+.tran .hand:nth-last-child(1) {
+    transform: translate(84px, -83px);
+}

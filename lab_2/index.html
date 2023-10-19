@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lab 2</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        td {
+            border: 2px solid black;
+        }
+        tr:first-child {
+            background-color: #778f8f; 
+            color: #01030A;
+        }
+        tr:nth-child(2) {
+            background-color: #f5f577; 
+            color: #254478
+        }
+        tr:first-child:hover, tr:nth-child(2):hover {
+            filter: invert(100%);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+        <td colspan="2" rowspan="2">
+            Мельник
+        </td>
+        <td>Михайло</td>
+        <td>Олександрович</td>
+        </tr>
+        <tr>
+        <td>ІП-12</td>
+        <td>Лабораторна 2, Варіант 7</td>
+        </tr>
+        <tr>
+        <td colspan="2">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td rowspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+    </table>
+    <div>
+        <div class="clock pos">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+    
+            <div class="hand"></div>
+            <div class="hand"></div>
+        </div>
+        <div class="clock tran">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+    
+            <div class="hand"></div>
+            <div class="hand"></div>
+        </div>
+    </div>
+</body>
+</html>
