@@ -1,0 +1,27 @@
+.target-clicked {
+    background-color: blue;
+    color: white;
+}
+
+.next-clicked {
+    background-color: green;
+    color: yellow;
+}
+
+img {
+    width: 800px;
+}
+
+/* hide image with hidden overflow */
+#add-img {
+    /* position: relative; */
+    overflow: hidden;
+}
+
+/* center image */
+#add-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
