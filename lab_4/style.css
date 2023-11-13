@@ -14,7 +14,7 @@ img {
 
 /* hide image with hidden overflow */
 #add-img {
-    /* position: relative; */
+    position: relative;
     overflow: hidden;
 }
 
