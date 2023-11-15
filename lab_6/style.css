@@ -1,0 +1,44 @@
+#results {
+    display: flex;
+}
+
+.block {
+    flex: 1;
+
+    height: 100%;
+}
+
+.text-block {
+    padding: 10px;
+    color: white;
+    word-break: break-all;
+    height: 100%;
+
+}
+
+.block img {
+    width: 100%;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+#button-block {
+    width: 100%;
+    text-align: center;
+    background-color: #808080;
+    font-size: 1.4rem;
+}
+
+body {
+    font: 1rem "Fira Sans", sans-serif;
+    margin: 0;
+    background-color: #343A40;
+}
+
+button {
+    margin: 10px;
+}
+
+#status {
+    margin: 0;
+}
