@@ -1,0 +1,21 @@
+{% extends "base/base.html" %}
+
+{% block title %}
+  Home
+{% endblock %}
+
+
+{% block content %}
+<h1> Welcome to Ch-D! </h1>
+
+{% if entries %}
+<h2>Last added: </h2>
+    <ul class="list-group col-12 col-lg-8 mt-5 mb-5">
+        {% for entry in entries %}
+            <a href="{% url 'public_entry' entry.song.author.slug entry.song.slug entry.number %}" class="list-group-item list-group-item-action ">
+                {{entry}}
+            </a>
+        {% endfor %}
+    </ul>
+{% endif %}
+{% endblock %}
